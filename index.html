@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <main>
+        <h1>Pomodoro Timer</h1>
+
+        <div id="container">
+
+            <div id="work-timer" class="timer-work">
+                <p id="w_minutes">25</p>
+                <p class="semicolon">:</p>
+                <p id="w_seconds">00</p>
+            </div>
+
+
+
+            <div id="break-timer" class="timer-break">
+                <div class="cycles">
+                    <p id="cycles" class="label">Cycles:</p>
+                    <p id="counter" class="digits">0</p>
+                </div>
+                <div class="break">
+                    <p id="break" class="label">Break:</p>
+                    <p id="b_minutes" class="digits">5</p>
+                    <p class="semicolon" class="digits">:</p>
+                    <p id="b_seconds" class="digits">00</p>
+                </div>
+
+            </div>
+            <div class="button">
+                <button id="start" class="btn-slide-left"><i class="far fa-play-circle fa-2x"></i></button>
+                <button id="stop" class="btn-slide-left"> <i class="far fa-pause-circle fa-2x"></i></button>
+                <button id="reset" class="btn-slide-left"><i class="fas fa-undo fa-2x"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
